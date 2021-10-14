@@ -6,7 +6,7 @@
 /*   By: hahan <hahan@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/14 09:47:30 by hahan             #+#    #+#             */
-/*   Updated: 2021/10/14 10:18:47 by hahan            ###   ########.fr       */
+/*   Updated: 2021/10/14 15:41:26 by hahan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	print_letter(char c)
 
 void	ft_write(int a, int b)
 {
-print_letter(a / 10 + '0');
+	print_letter(a / 10 + '0');
 	print_letter(a % 10 + '0');
 	print_letter(' ');
 	print_letter(b / 10 + '0');
